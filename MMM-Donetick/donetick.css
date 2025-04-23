@@ -1,0 +1,53 @@
+.MMM-Donetick div {
+  /* color: green; */
+}
+
+.MMM-Donetick ul {
+  list-style-type: none;
+}
+
+.MMM-Donetick .chore-title {
+    text-align: left;
+    line-height: 1.1;
+    padding-bottom: 4px;
+}
+
+.MMM-Donetick .chore-time {
+    text-align: left;
+    color: var(--color-text-bright);
+    line-height: 1.1;
+    font-size: medium;
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
+
+.MMM-Donetick .chore-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.MMM-Donetick .chore-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    align-content: flex-start;
+}
+
+.MMM-Donetick .warning-text {
+    color: var(--color-text-warning);
+}
+
+.MMM-Donetick .casual-text {
+    color: var(--color-text-casual);
+}
+
+.MMM-Donetick {
+  --color-text: #999;
+  --color-text-dimmed: #666;
+  --color-text-bright: #fff;
+  --color-text-warning: #ff8e99;
+  --color-text-casual: #bcddff;
+  --color-background: #000;
+  --font-primary: "Roboto Condensed";
+  --font-secondary: "Roboto";
+}
